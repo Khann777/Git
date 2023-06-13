@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #24292e;
+  height: 80px;
+  padding: 0 30px;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+}
+
+.logo__link {
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.logo__link svg {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #24292e;
+  margin: 0 14px;
+}
+
+.search input[type="text"] {
+  width: 400px;
+  height: 35px;
+  border-radius: 7px;
+  border: 2px solid #57606a;
+  background: #24292e;
+  font-size: 16px;
+  color: #c8c9cb;
+}
+
+::placeholder {
+  color: #c8c9cb;
+}
+
+.search {
+  float: right;
+  margin: 25px 0px;
+}
+
+form i {
+  position: absolute;
+}
+
+.search-icon {
+  padding: 10px;
+  color: #57606a;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.navbar {
+  margin: 10px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  margin: 7px;
+}
+
+.icon-bell {
+  font-size: 24px;
+}
+
+.icon-plus {
+  height: 20px;
+}
+
+select {
+  font-family: "FontAwesome", "Second Font name";
+  background: #24292e;
+  border: none;
+  color: #fff;
+  margin: 20px;
+  height: 50px;
+  width: 50px;
+  font-size: 22px;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  border: 2px solid #57606a;
+  width: 400px;
+  padding: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px 5px;
+  border-radius: 15px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 5px;
+}
+
+strong {
+  color: blue;
+}
